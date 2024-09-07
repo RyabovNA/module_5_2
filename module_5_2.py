@@ -9,7 +9,7 @@ class House:
             for floor in range(1, new_floor + 1):
                 print(floor)
         else:
-            print(f'Такого этажа не существуетю')
+            print(f'Такого этажа не существует')
 
 
     def __len__(self):
